@@ -46,6 +46,7 @@ for item in shopping_list:
     print('| {:^10} | {:^12} | R$:{:^10.2f} | R$: {:^12.2f} |' .format(item[0], item[1], item[2], item[1] * item[2]))
     sum += item[1] * item[2]
 print('-'*64)
+
 #The final price of the shopping list
 print('TOTAL: R${}' .format(sum))
 
