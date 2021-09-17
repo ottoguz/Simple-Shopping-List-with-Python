@@ -48,5 +48,5 @@ for item in shopping_list:
 print('-'*64)
 
 #The final price of the shopping list
-print('TOTAL: R${}' .format(sum))
+print('TOTAL: R${:.2f}' .format(sum))
 
